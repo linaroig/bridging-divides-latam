@@ -44,7 +44,7 @@ Digital Media Usage Index: Based on how often respondents use various media sour
 Z-score Normalization:
 To make the indices comparable, z-score normalization was applied to each index, converting them to a standard scale (mean of 0, standard deviation of 1).
 
-Exploratory Analysis:
+# Exploratory Analysis:
 The analysis explores the relationships between these indices and investigates whether these relationships differ by country, age, or other demographic factors.
 
 Statistical Techniques:
@@ -55,7 +55,8 @@ Correlation analysis
 
 Regression models to assess the impact of digital media usage on social trust and polarization.
 
-Directory Structure
+# Directory Structure
+
 /data: Contains the raw and processed data files.
 
 /notebooks: Contains Jupyter notebooks used for analysis and modeling.
@@ -68,38 +69,28 @@ README.md: This file.
 
 # Requirements
 This project uses the following Python libraries:
-
 pandas
-
 numpy
-
 scipy
-
 pingouin
-
 matplotlib
-
 seaborn
-
 scikit-learn
-
 statsmodels
-
 Streamlit (for visualization)
 
-You can install the necessary libraries using:
 To run the analysis, simply execute the Jupyter notebooks or Python scripts in the /scripts folder.
 
-Data Preprocessing:
+# Data Preprocessing:
 Load and preprocess the raw data by following the steps in the preprocessing script.
 
-Analysis:
+# Analysis:
 Run the analysis and generate the results by executing the notebooks.
 
-Visualization:
+# Visualization:
 Use Streamlit to interactively visualize the relationships between digital media usage, social trust, and polarization.
 
-Expected Outcomes
+# Expected Outcomes
 The analysis will provide insights into:
 
 Cross-national patterns of digital media usage, social trust, and political polarization in Latin America.
@@ -108,5 +99,4 @@ The impact of digital media usage on social trust and polarization across differ
 
 Potential mediating factors that influence these relationships.
 
-Contributing
 If you'd like to contribute to this project or improve the analysis, feel free to fork the repository and create a pull request with your suggestions or modifications.
