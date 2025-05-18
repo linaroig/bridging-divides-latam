@@ -1,1 +1,4 @@
 wvs_env/
+cleaned_data.csv/
+df_clean_for_analysis.csv/
+raw_data/
